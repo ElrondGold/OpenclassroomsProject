@@ -54,7 +54,9 @@ body {
 .neutralStar {
     color: var(--main-bg-color)
 }
-
+.fa-xs {
+    color: #0065FC;
+}
 
 
 /******* HEADER ******/ 
@@ -98,7 +100,7 @@ body {
 
 .header_nav_heber {
     text-decoration: none;
-    width: 113px;
+    width: 45%;
     height: 35px;
     flex: none;
     order: 0;
@@ -118,14 +120,14 @@ body {
 
 .header_nav_heber:hover {
     color: #0065FC;
-    border-top: 4px solid #0065FC;
-    padding-top: 10px;
+    border-top: 2px solid #0065FC;
+    padding-top: 13px;
 }
 
 .header_nav_acti:hover {
     color: #0065FC;
-    border-top: 4px solid #0065FC;
-    padding-top: 10px
+    border-top: 2px solid #0065FC;
+    padding-top: 13px
 }
 
 
@@ -139,8 +141,8 @@ body {
     padding: 0px;
     gap: 35px;
     isolation: isolate;
-    width: 1340px;
-    height: 281px;
+    width: 100%;
+    height: 25%;
 }
 
 .headline {
@@ -149,8 +151,8 @@ body {
     align-items: flex-start;
     padding: 0;
     gap: 8px;
-    width: 1340px;
-    height: 50px;
+    width: 100%;
+    height: 20%;
 }
 
 .headline_titre {
@@ -160,14 +162,14 @@ body {
     font-size: 22px;
     line-height: 26px;
     color: #000000;
-    width: 1340px;
+    width: 100%;
     height: 26px;
     padding-top: 50px;
     margin-bottom: 0;
 }
 
 .headline_sous_titre {
-    width: 1340px;
+    width: 100%;
     height: 19px;
     font-family: 'Raleway';
     font-style: normal;
@@ -185,7 +187,7 @@ body {
     align-items: center;
     margin-top: 75px;
     gap: 24px;
-    width: 377px;
+    width: 25%;
     height: 49px;
     border: 1px solid #F2F2F2;
     border-radius: 15px;
@@ -359,7 +361,188 @@ body {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 30px;
+    width: 871px;
+    height: 611.5px;
 }
+
+.hebergements-cards-un {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 811px;
+    height: 207.25px;
+}
+
+.hebergements-cards-deux {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 811px;
+    height: 207.25px;
+}
+
+.hebergements-cards-un img {
+    box-sizing: border-box;
+width: 250.33px;
+height: 124px;
+border: 5px solid #FFFFFF;
+border-radius: 20px 20px 0px 
+}
+
+.hebergements-cards-deux img {
+    box-sizing: border-box;
+width: 250.33px;
+height: 124px;
+border: 5px solid #FFFFFF;
+border-radius: 20px 20px 0px 
+}
+
+.card-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+    gap: 4px;
+    width: 250.33px;
+    height: 207.25px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background: #FFFFFF;
+}
+.card-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 15px;
+    gap: 4px;
+    width: 250.33px;
+    height: 207.25px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background: #FFFFFF;
+}
+.card-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 15px;
+    gap: 4px;
+    width: 250.33px;
+    height: 207.25px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background: #FFFFFF;
+}
+.card-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+    gap: 4px;
+    width: 250.33px;
+    height: 207.25px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background: #FFFFFF;
+}
+.card-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 15px;
+    gap: 4px;
+    width: 250.33px;
+    height: 207.25px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background: #FFFFFF;
+}
+.card-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 15px;
+    gap: 4px;
+    width: 250.33px;
+    height: 207.25px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background: #FFFFFF;
+}
+
+.card-content-hebergements {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 15px;
+    gap: 8px;
+    width: 250.33px;
+    height: 64.25px;
+}
+
+.card-txt-hebergements {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 15px;
+    gap: 8px;
+    width: 250.33px;
+    height: 64.25px;
+}
+
+.card-title-hebergements {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.card-subtitle {
+    margin: 0;
+}
+
+.hebergements-cards-un .card-rating {
+    margin-bottom: 5px;
+    margin-left: 6%;
+}
+
+.hebergements-cards-deux .card-rating {
+    margin-bottom: 5px;
+    margin-left: 6%;
+}
+.card-2 img {
+    object-fit: cover;
+}
+.card-3 img {
+    object-fit: cover;
+}
+.card-4 img {
+    object-fit: cover;
+}
+
+.section-subtitle-hebergements {
+    width: 100%;
+    height: 21px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin: 0;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+
+}
+
 
 /****** Populaires ***********/
 .populaires {
