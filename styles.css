@@ -38,6 +38,10 @@ h3 {
 
 }
 
+i#greyStar {
+    color: #F2F2F2;
+}
+
 .boxing-texte p {
     font-size: 14px;
 }
